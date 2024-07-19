@@ -15,7 +15,7 @@ if [ "$confirmation" == "yes" ]; then
         echo "Removing image $image_id"
         docker rmi $image_id
     done
-    echo "All Docker images have been removed."
+    echo "All Docker images have been Removed."
 else
-    echo "No Docker images have been removed."
+    echo "No Docker images have been Removed."
 fi

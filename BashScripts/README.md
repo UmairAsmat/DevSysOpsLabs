@@ -74,6 +74,13 @@ Documentation:
 - AWS CLI basics.
 - Combining AWS operations with Docker using Bash.
 
+**Lab 9: Advanced Bash Error Handling with Docker Operations**
+
+*Objective: Implement robust error handling in Bash scripts for Docker tasks.*
+
+Tasks:
+1. Write a script that tries to run a non-existent Docker container.
+2. Implement error handling to catch the error and notify the user.
 
 
 

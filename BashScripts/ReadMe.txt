@@ -49,6 +49,19 @@ Tasks:
 4. The script then enter you in interactive mode.
 5. if you type Ctrl p+q it will remove the image.
 
+**Lab 7: Scheduling Docker Workloads with Bash and Cron**
+
+*Objective: Use Bash and Cron to automate Docker workloads.*
+
+Tasks:
+1. Write a script to run periodic backups using a Dockerized backup tool.
+2. Schedule the script using Cron.
+Step 1: Create Dockerfile
+Step 2: Build the Docker Image
+Step 3: Script Implementation
+Step 4: Scheduling with Cron
+
+
 
 
 

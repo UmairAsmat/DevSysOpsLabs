@@ -14,6 +14,41 @@ Grasp fundamental interactions between Bash and Docker
 **Lab 3: Conditional Bash Scripts with Docker**
 
 *Objective:*
+Certainly, here's a Bash script that checks if a Docker container is running and starts it if it's not
 1. Write a script that checks if a Docker container is running.
 2. If not running, the script should start it
+
+**Lab 4: Bash Loops with Docker Image Management**
+
+*Objective:* 
+Implement loop constructs in Bash for Docker image management
+Tasks:
+1. Write a script that lists all Docker images.
+2. Use a loop to remove each image interactively.
+*Instructions:*
+Make sure to save this script in a .sh file (e.g., docker_image_management.sh), grant it execute permissions (chmod +x docker_image_management.sh), and then run it using ./docker_image_management.sh in a terminal.
+
+**Lab 5: Accepting User Inputs for Docker Operations**
+
+*Objective: Enhance user input handling in Bash for Docker-related tasks.*
+
+Tasks:
+1. Write a script that accepts an image name as input.
+2. The script then pulls and runs the Docker image.
+3. The script then enter you in interactive mode.
+4. The script then removes the image if you exit.
+
+**Lab 6: Functions in Bash for Modular Docker Scripts**
+
+*Objective: Use functions in Bash to modularize Docker operations.*
+
+Tasks:
+1. Create separate functions for Docker pull, run, and stop operations.
+2. Use the functions in a main Bash script workflow.
+3. The script then pulls and runs the Docker image.
+4. The script then enter you in interactive mode.
+5. if you type Ctrl p+q it will remove the image.
+
+
+
 

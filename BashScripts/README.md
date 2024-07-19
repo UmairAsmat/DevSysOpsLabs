@@ -83,6 +83,14 @@ Tasks:
 2. Implement error handling to catch the error and notify the user.
 
 
+**Lab Lab 10: Continuous Deployment Script with Bash and Docker on AWS**
+
+*Objective: Demonstrate a continuous deployment (CD) process using Bash, Docker, and AWS.*
+
+Tasks:
+1. Create a Bash script that pulls a Dockerized application from a repository.
+2. Deploy the app on AWS (e.g., ECS) using the AWS CLI.
+3. Implement rollback strategies in case of deployment failures.
 
 
 

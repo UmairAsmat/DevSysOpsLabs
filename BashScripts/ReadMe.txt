@@ -62,6 +62,20 @@ Step 3: Script Implementation
 Step 4: Scheduling with Cron
 
 
+**Lab 8: Bash Scripting with AWS CLI and Docker**
+
+*Objective: Integrate AWS CLI operations with Docker in a Bash script.*
+
+Tasks:
+1. Write a Bash script to launch an EC2 instance.
+2. Once launched, SSH into the instance and run a Docker container.
+
+Documentation:
+- AWS CLI basics.
+- Combining AWS operations with Docker using Bash.
+
+
+
 
 
 

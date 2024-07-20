@@ -13,10 +13,11 @@ Tasks:
 
 Task1: Install and configure boto3
 
-	*1.1: Install boto3*
- 	Command:
+1.1: Install boto3
+ Command:
   
-  		pip install boto3
+  	pip install boto3
+   
   
          1.2: Aws Cli  Installation and Configuration
 	     

@@ -48,6 +48,8 @@ Command:
  	aws configure(after running this command you would be asked to input your access key and security key along with your default region
 
 
+
+
 **Lab 3: Automating EC2 Instance Management with Python**
 
 **Objective**:
@@ -56,6 +58,7 @@ Create Python scripts to start, stop, and monitor EC2 instances.
 **Tasks**:
 1. Write a script to start/stop an EC2 instance.
 2. Extend the script to monitor CPU utilization.
+
 
 **Lab 4: Python Automation for AWS RDS**
 
@@ -66,25 +69,21 @@ Automate AWS RDS backups using Python.
 1. Create an RDS instance.
 2. Write a Python script to trigger manual backups.
 
+
 **Lab 5 - Deploying Lambda Functions with Python**
 
 **Objective**:
 
 Step1:
 Write a Simple Python Lambda Function
-
 step 2:
 Create a Deployment Package
-
 step 3:
 Create an IAM Role
-
 step 4:
 Attach Permissions to the IAM Role
-
 step 5:
 Create the Lambda Function
-
 Step 5:
 aws lambda invoke --function-name <your-function-name> output.txt
 
@@ -97,6 +96,16 @@ Use Python to automate common AWS S3 tasks.
 **Tasks**:
 1. Write a script to upload/download files from S3.
 2. Implement versioning in the script.
+
+
+**Lab 7: Creating Dashboards on CloudWatch with Python**
+
+**Objective**:
+Automate the creation and management of CloudWatch dashboards.
+
+**Tasks**:
+1. Generate CloudWatch metrics using Python.
+2. Automate the creation of dashboards displaying these metrics.
 
 
 

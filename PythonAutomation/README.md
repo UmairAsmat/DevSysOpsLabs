@@ -1,6 +1,7 @@
 **Lab 1: Setting up AWS EC2 for Python Development**
 
 *Objectives:*
+
 Tasks:
 1- Ec2 instance launch/configuration
 2- SSH into linux
@@ -14,6 +15,7 @@ Task1: Install and configure boto3
 
 	*1.1: Install boto3*
  	Command:
+  
   		pip install boto3
   
          1.2: Aws Cli  Installation and Configuration

@@ -73,20 +73,31 @@ Automate AWS RDS backups using Python.
 Step1:
 Write a Simple Python Lambda Function
 
-step2: 
+step 2:
 Create a Deployment Package
 
-step3:
+step 3:
 Create an IAM Role
 
-step 4:  
+step 4:
 Attach Permissions to the IAM Role
 
-step5: 
+step 5:
 Create the Lambda Function
 
 Step 5:
 aws lambda invoke --function-name <your-function-name> output.txt
+
+
+**Lab 6: Automating AWS S3 Operations with Python**
+
+**Objective**:
+Use Python to automate common AWS S3 tasks.
+
+**Tasks**:
+1. Write a script to upload/download files from S3.
+2. Implement versioning in the script.
+
 
 
 

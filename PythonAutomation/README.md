@@ -57,3 +57,14 @@ Create Python scripts to start, stop, and monitor EC2 instances.
 1. Write a script to start/stop an EC2 instance.
 2. Extend the script to monitor CPU utilization.
 
+**Lab 4: Python Automation for AWS RDS**
+
+**Objective**:
+Automate AWS RDS backups using Python.
+
+**Tasks**:
+1. Create an RDS instance.
+2. Write a Python script to trigger manual backups.
+
+
+

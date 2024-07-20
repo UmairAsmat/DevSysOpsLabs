@@ -113,6 +113,16 @@ Automate the creation and management of CloudWatch dashboards.
 1. Generate CloudWatch metrics using Python.
 2. Automate the creation of dashboards displaying these metrics.
 
+**Lab 8: Python Automation for AWS Elastic Load Balancing (ELB)**
+
+**Objective**:
+Write scripts to automate the management of AWS ELB.
+
+**Tasks**:
+1. Write a script to create and configure a new ELB.
+2. Monitor and analyze traffic on ELB using Python.
+
+
 
 
 

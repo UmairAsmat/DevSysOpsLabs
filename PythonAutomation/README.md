@@ -42,3 +42,14 @@ Task1: Install and configure boto3
 Command: 
 
  	aws configure(after running this command you would be asked to input your access key and security key along with your default region
+
+
+**Lab 3: Automating EC2 Instance Management with Python**
+
+**Objective**:
+Create Python scripts to start, stop, and monitor EC2 instances.
+
+**Tasks**:
+1. Write a script to start/stop an EC2 instance.
+2. Extend the script to monitor CPU utilization.
+

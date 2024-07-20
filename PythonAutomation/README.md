@@ -22,6 +22,7 @@ Task1: Install and configure boto3
 1.2: Aws Cli  Installation and Configuration
 	     
 1.2.1: Aws cli installation:
+
   Command:
   
    	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"	
@@ -33,7 +34,7 @@ Task1: Install and configure boto3
 
  Command: 
  
- 		sudo ./aws/install
+ 	sudo ./aws/install
    
 
 1.2.2: aws configure:

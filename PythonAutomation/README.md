@@ -27,17 +27,17 @@ Task1: Install and configure boto3
    	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"	
     
    
- Command2: 
+ Command: 
  
  	unzip awscliv2.zip
 
- Command3: 
+ Command: 
  
  		sudo ./aws/install
    
 
 1.2.2: aws configure:
 
-Command1: 
+Command: 
 
  	aws configure(after running this command you would be asked to input your access key and security key along with your default region

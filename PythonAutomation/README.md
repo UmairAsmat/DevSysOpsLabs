@@ -3,8 +3,11 @@
 *Objectives:*
 
 **Tasks:**
+
 1- Ec2 instance launch/configuration
+
 2- SSH into linux
+
 3- instal python3 and python pip and package manager
 
 **Lab 2: Basic Python Script to Interact with AWS Services**

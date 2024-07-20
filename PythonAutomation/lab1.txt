@@ -1,0 +1,13 @@
+Chmod 400 yourpemfile.pem
+
+ssh -i yourpemfile.pem ubuntu@3.145.109.226
+
+sudo apt update
+
+sudo apt instal python3 -y
+
+python3 –version
+
+sudo apt install python3-pip -y
+
+pip install numpy

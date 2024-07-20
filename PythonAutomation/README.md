@@ -2,7 +2,7 @@
 
 *Objectives:*
 
-Tasks:
+**Tasks:**
 1- Ec2 instance launch/configuration
 2- SSH into linux
 3- instal python3 and python pip and package manager
@@ -11,7 +11,8 @@ Tasks:
 
 *Objectives: Write a Python script using Boto3 to list all your S3 buckets*
 
-Task1: Install and configure boto3
+**Task1:**
+Install and configure boto3
 
 1.1: Install boto3
  Command:

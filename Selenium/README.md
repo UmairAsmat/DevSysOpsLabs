@@ -191,6 +191,71 @@ my_test_db
 Review and create the RDS instance.
 
 
+**Lab 5: Parallel Execution of Tests using Selenium Grid on AWS.**
+
+*Objective: Set up a Selenium Grid on AWS to run tests on different browsers in parallel.*
+
+Tasks:
+
+1. Set up Selenium Grid Hub on EC2.
+2. 
+3. Register multiple nodes with different browsers.
+4. 
+5. Run a test suite in parallel across nodes.
+
+Step 1: Setting Up Selenium Grid Hub on EC2
+
+Log in to your AWS account.
+
+Launch a new EC2 instance (Choose an OS based on your preference ubuntu).
+
+Install Java on the EC2 instance.
+
+Download and start the Selenium Grid Hub:
+
+    sudo apt update
+    
+    sudo apt install default-jre
+    
+    #download standalone selenium
+    
+    wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
+
+
+Access the hub using http://<EC2-Public-IP>:4444/grid/console.
+
+Setting up Hub and Nodes on EC2
+
+
+# Start the Selenium Grid Hub on your EC2 instance.
+
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+Step 2: Registering Nodes with Different Browsers
+
+Launch multiple EC2 instances (nodes) with different configurations (e.g., different browsers and operating systems).
+
+Install Java on each node.
+
+Download and start the Selenium Standalone Server on each node as shown above
+
+Type following command to register the nodes
+
+
+    http://<Hub-IP>:4444/grid/register
+
+
+
+Nodes will be registered with the hub.
+
+Parallel Execution in Selenium
+
+Step 3: Running a Test Suite in Parallel
+
+You can use EC2 or Local Machine. It's totally up to you to run the test suite in parallel.
+
+
+
 
 
 

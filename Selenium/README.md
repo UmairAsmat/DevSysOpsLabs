@@ -112,8 +112,14 @@ apt install python3-pip
 pip3 install selenium
 
 
+**Lab 2: Simple Web Automation Test**
 
-*Step 5: Running Basic Selenium Test*
+*Objective: Write a basic Selenium test to open a browser and navigate to a website to take Screenshot.
+
+Tasks:
+1. Create a simple Selenium script.
+2. Open a browser and navigate to AWS's official website.
+3. Capture a screenshot of the webpage.
 
 Open PyCharm from GUI.
 

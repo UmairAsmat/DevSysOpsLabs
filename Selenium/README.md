@@ -149,5 +149,48 @@ Tasks:
 2. Run Selenium script to upload screenshots to the AWS S3 bucket.
 
 
+Lab 4: Automated Form Submissions
+
+Objective: Automate the process of submitting web forms using Selenium.
+
+Tasks:
+1. Write a Selenium script to fill and submit a sample web form.
+2. Store submission results or responses on AWS RDS.
+
+Step 1: Setting Up an AWS RDS Instance
+
+Log in to your AWS account.
+
+Go to the RDS dashboard.
+
+Click on "Create database".
+
+Choose a database engine, configuration, and instance details.
+
+Set up the master username and password.
+
+Configure advanced settings (optional).
+
+You can configure RDS like following
+
+standard
+
+mysql
+
+free tier
+
+my-test-db
+
+admin
+password
+
+choose existing 21
+
+my_test_db
+
+Review and create the RDS instance.
+
+
+
 
 

@@ -110,7 +110,7 @@ snap find pycharm
 snap install pycharm-community --classic
 apt install python3-pip
 pip3 install selenium
-
+=============================================================================================================================================================================
 
 **Lab 2: Simple Web Automation Test and take screenshot of webpage**
 

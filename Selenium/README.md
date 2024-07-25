@@ -116,19 +116,21 @@ pip3 install selenium
 *Step 5: Running Basic Selenium Test*
 
 Open PyCharm from GUI.
+
 Create a New Project and Virtual Environment.
+
 Create a New Python File.
+
 Make sure to install selenium either from Terminal of PyCharm or by clicking file and going to settings.
 
-from selenium import webdriver
-import time
-
-driver = webdriver.Chrome()
-driver.get("https://aws.amazon.com/")
-driver.save_screenshot("aws_website.png")
-
-time.sleep(10)
-driver.quit()
+      from selenium import webdriver
+      import time
+      driver = webdriver.Chrome()
+      driver.get("https://aws.amazon.com/")
+      driver.save_screenshot("aws_website.png")
+      
+      time.sleep(10)
+      driver.quit()
 
 
 

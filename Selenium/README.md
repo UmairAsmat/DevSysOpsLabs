@@ -140,6 +140,14 @@ Make sure to install selenium either from Terminal of PyCharm or by clicking fil
       driver.quit()
 
 
+**Lab 3: Using AWS S3 to Store Selenium Screenshots.**
+
+*Objective: Integrate AWS services with Selenium tasks.*
+
+Tasks:
+1. Create an S3 bucket.
+2. Run Selenium script to upload screenshots to the AWS S3 bucket.
+
 
 
 

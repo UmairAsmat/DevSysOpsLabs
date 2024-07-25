@@ -7,60 +7,82 @@ Tasks:
 2. SSH into the instance.
 3. Install Python, Selenium, and required web drivers.
 
-*Step 1: Launching an EC2 Instance*
+*Step 1 : Launching an EC2 Instance*
+
+
 Log in to your AWS account.
+
 Go to the EC2 dashboard.
+
 Click on "Launch Instance".
+
 Choose an Amazon Machine Image (AMI) (e.g., Ubuntu).
+
 Select an instance type based on your requirements. (t2-Medium)
+
 Configure instance details (leave default if unsure).
+
 Add storage (28 GB).
+
 Add tags (optional).
+
 Configure security groups (open necessary ports like 22 for SSH and 80 for web applications).
+
 Review and launch the instance.
+
 Create or select an existing key pair and download the private key file (.pem).
 
-*Step 2: SSH into the Instance.*
+*Step 2 : SSH into the Instance.*
 
 Select the EC2 instance and click connect from the top menu.
 In the shell that opens, use following commands to Install GUI and Pycharm.
 
-sudo apt update
-sudo apt install ubuntu-gnome-desktop tightvncserver
+  sudo apt update
+  
+  sudo apt install ubuntu-gnome-desktop tightvncserver
 
-vncserver
-nano ~/.vnc/xstartup
+  vncserver
+  
+  nano ~/.vnc/xstartup
 
 #paste the below script in the xstartup file
  
-#!/bin/bash
-
-export XKL_XMODMAP_DISABLE=1
-export XDG_CURRENT_DESKTOP="GNOME-Flashback:Unity"
-export XDG_MENU_PREFIX="gnome-flashback-"
-unset DBUS_SESSION_BUS_ADDRESS
-xrdb "$HOME/.Xresources"
-gnome-session &
+    #!/bin/bash
+    export XKL_XMODMAP_DISABLE=1
+    export XDG_CURRENT_DESKTOP="GNOME-Flashback:Unity"
+    export XDG_MENU_PREFIX="gnome-flashback-"
+    unset DBUS_SESSION_BUS_ADDRESS
+    xrdb "$HOME/.Xresources"
+    gnome-session &
 
 
 Press Ctrl +x, then press y, then press enter to save and exit out of nano editor.
 
-chmod +x ~/.vnc/xstartup
-vncserver -kill :1
-vncserver
+  chmod +x ~/.vnc/xstartup
+  
+  vncserver -kill :1
+  
+  vncserver
 
 
 Now set the password you want to use for VNCServer
 
 sudo apt update
+
 sudo apt install xrdp
+
 sudo systemctl start xrdp
+
 sudo systemctl enable xrdp
+
 sudo apt install gnome-tweaks
+
 echo "gnome-session" > ~/.xsession
+
 sudo ufw allow 3389/tcp
 
 sudo systemctl status xrdp
+
 sudo systemctl status xrdp-sesman
 
 sudo passwd ubuntu

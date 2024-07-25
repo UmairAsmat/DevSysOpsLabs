@@ -112,7 +112,7 @@ apt install python3-pip
 pip3 install selenium
 
 
-**Lab 2: Simple Web Automation Test**
+**Lab 2: Simple Web Automation Test and take screenshot of webpage**
 
 *Objective: Write a basic Selenium test to open a browser and navigate to a website to take Screenshot.
 

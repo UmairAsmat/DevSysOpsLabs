@@ -290,4 +290,14 @@ Tasks:
 3. Integrate AWS SNS to send notifications upon failures.
 
 
+**Lab 9: Running Headless Selenium Tests on EC2.**
+
+*Objective: Configure and run headless Selenium tests on an EC2 instance.*
+
+Tasks:
+
+1. Set up necessary dependencies on EC2.
+
+3. Write and execute a headless Selenium test.
+
 

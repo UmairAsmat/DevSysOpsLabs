@@ -118,8 +118,11 @@ pip3 install selenium
 *Objective: Write a basic Selenium test to open a browser and navigate to a website to take Screenshot.
 
 Tasks:
+
 1. Create a simple Selenium script.
+
 2. Open a browser and navigate to AWS's official website.
+
 3. Capture a screenshot of the webpage.
 
 Open PyCharm from GUI.
@@ -146,15 +149,18 @@ Make sure to install selenium either from Terminal of PyCharm or by clicking fil
 
 Tasks:
 1. Create an S3 bucket.
+
 2. Run Selenium script to upload screenshots to the AWS S3 bucket.
 
 
-Lab 4: Automated Form Submissions
+**Lab 4: Automated Form Submissions.**
 
 Objective: Automate the process of submitting web forms using Selenium.
 
 Tasks:
+
 1. Write a Selenium script to fill and submit a sample web form.
+
 2. Store submission results or responses on AWS RDS.
 
 Step 1: Setting Up an AWS RDS Instance
@@ -198,10 +204,10 @@ Review and create the RDS instance.
 Tasks:
 
 1. Set up Selenium Grid Hub on EC2.
-2. 
-3. Register multiple nodes with different browsers.
-4. 
-5. Run a test suite in parallel across nodes.
+ 
+2. Register multiple nodes with different browsers.
+
+3. Run a test suite in parallel across nodes.
 
 Step 1: Setting Up Selenium Grid Hub on EC2
 
@@ -263,9 +269,9 @@ Tasks:
 
 1. Install Jenkins on EC2.
 
-3. Create a Jenkins job to run Selenium tests.
+2. Create a Jenkins job to run Selenium tests.
 
-5. Store and review test results.
+3. Store and review test results.
 
 
 **Lab 7: Monitoring Web Application Performance with Selenium and CloudWatch.**
@@ -276,7 +282,7 @@ Tasks:
 
 1. Develop Selenium scripts to measure web page load times.
 
-3. Push these metrics to AWS CloudWatch.
+2. Push these metrics to AWS CloudWatch.
 
 
 **Lab 8: Error Reporting with Selenium and AWS SNS.**
@@ -287,7 +293,7 @@ Tasks:
 
 1. Modify Selenium scripts to detect test failures.
 
-3. Integrate AWS SNS to send notifications upon failures.
+2. Integrate AWS SNS to send notifications upon failures.
 
 
 **Lab 9: Running Headless Selenium Tests on EC2.**
@@ -298,6 +304,17 @@ Tasks:
 
 1. Set up necessary dependencies on EC2.
 
-3. Write and execute a headless Selenium test.
+2. Write and execute a headless Selenium test.
+
+
+**Lab 10: Scaling Selenium Tests using AWS Lambda and Step Functions.**
+
+*Objective: Run Selenium tests as serverless functions with scalability and orchestration.*
+
+Tasks:
+
+1. Configure a Lambda function to run a Selenium test.
+
+2. Orchestrate multiple tests using AWS Step Functions.
 
 

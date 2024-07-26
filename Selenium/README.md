@@ -268,5 +268,17 @@ Tasks:
 5. Store and review test results.
 
 
+**Lab 7: Monitoring Web Application Performance with Selenium and CloudWatch.**
+
+*Objective: Monitor web application performance metrics using Selenium and send data to AWS CloudWatch.*
+
+Tasks:
+
+1. Develop Selenium scripts to measure web page load times.
+
+3. Push these metrics to AWS CloudWatch.
+
+
+
 
 

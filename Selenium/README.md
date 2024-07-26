@@ -279,6 +279,15 @@ Tasks:
 3. Push these metrics to AWS CloudWatch.
 
 
+**Lab 8: Error Reporting with Selenium and AWS SNS.**
+
+*Objective: Send notifications on Selenium test failures using AWS SNS.*
+
+Tasks:
+
+1. Modify Selenium scripts to detect test failures.
+
+3. Integrate AWS SNS to send notifications upon failures.
 
 
 

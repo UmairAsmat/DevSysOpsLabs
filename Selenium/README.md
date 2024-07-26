@@ -255,6 +255,17 @@ Step 3: Running a Test Suite in Parallel
 You can use EC2 or Local Machine. It's totally up to you to run the test suite in parallel.
 
 
+**Lab 6: Continuous Integration with Jenkins and Selenium on AWS.**
+
+Objective: Set up a CI pipeline using Jenkins to automatically trigger Selenium tests.
+
+Tasks:
+
+1. Install Jenkins on EC2.
+
+3. Create a Jenkins job to run Selenium tests.
+
+5. Store and review test results.
 
 
 
